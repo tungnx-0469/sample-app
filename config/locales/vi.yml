@@ -1,0 +1,20 @@
+vi:
+  hello: "Xin chào thế giới"
+  base_title: "Ứng dụng Mẫu Ruby on Rails Tutorial"
+  header:
+    home: "Trang chủ"
+    help: "Trợ giúp"
+    login: "Đăng nhập"
+  language:
+    english: "Tiếng Anh"
+    vietnamese: "Tiếng Việt"
+  home:
+    title: "Trang chủ"
+    welcome: "Chào mừng bạn đến với Ứng dụng Mẫu"
+    sign_up_text: "Đăng ký ngay"
+    description_text_1: "Đây là trang chủ của"
+    description_text_2: "Hướng dẫn Ruby on Rails"
+    description_text_3: "ứng dụng mẫu."
+  help:
+    title: "Trợ giúp"
+    find_me_in: "Tìm tôi tại"

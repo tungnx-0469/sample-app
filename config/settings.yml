@@ -1,0 +1,2 @@
+app_name: "Sample app"
+help_class_link: "app/views/statis_pages/help.html.erb"
