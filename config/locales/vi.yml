@@ -1,6 +1,15 @@
 vi:
+  activerecord:
+    models:
+      user: "Người dùng"
+    attributes:
+      user:
+        name: "Tên"
+        email: "Email"
+        password: "Mật Khẩu"
   hello: "Xin chào thế giới"
   base_title: "Ứng dụng Mẫu Ruby on Rails Tutorial"
+  sign_up: "Đăng ký"
   header:
     home: "Trang chủ"
     help: "Trợ giúp"
@@ -18,3 +27,9 @@ vi:
   help:
     title: "Trợ giúp"
     find_me_in: "Tìm tôi tại"
+  users:
+    new:
+     create_my_account: "Tạo tài khoản"
+     confirmation: "Xác nhận"
+  msg:
+    welcome_msg: "Chào mừng tới sample app!"
