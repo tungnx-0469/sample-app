@@ -4,3 +4,6 @@ valid_email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
 user_email_max_length: 255
 user_name_max_length: 50
 user_password_min_length: 6
+user_not_found_error: "User not found!"
+gravatar: "gravatar"
+gravatar_url: "https://secure.gravatar.com/avatar"

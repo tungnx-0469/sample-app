@@ -1,6 +1,15 @@
 en:
+  activerecord:
+    models:
+      user: "User"
+    attributes:
+      user:
+        name: "Name"
+        email: "Email"
+        password: "Password"
   hello: "Hello world"
   base_title: "Ruby on Rails Tutorial Sample App"
+  sign_up: "Sign up"
   language:
     english: "English"
     vietnamese: "Vietnamese"
@@ -18,3 +27,9 @@ en:
   help:
     title: "Help"
     find_me_in: "Find me in"
+  users:
+    new:
+     create_my_account: "Create My Account"
+     confirmation: "Confirmation"
+  msg:
+    welcome_msg: "Welcome to the sample app!"
