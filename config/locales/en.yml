@@ -42,6 +42,21 @@ en:
     new:
      create_my_account: "Create My Account"
      confirmation: "Confirmation"
+    edit:
+      edit_user: "Edit User"
+      save_change: "Save change"
+      update_your_profile: "Update your profile"
+      change: "Change"
+    index:
+      all_users: "All users"
   msg:
     invalid_email_password_combination: "Invalid email and password combination"
     welcome_msg: "Welcome to the sample app!"
+    not_found_user: "Not found user!"
+    please_log_in: "Please log in"
+    cannot_edit_this_account: "You can't edit this account."
+    profile_updated: "Profile updated!"
+    user_deleted: "User deleted!"
+    delete_fail: "User delete fail!"
+    you_sure: "You sure?"
+  delete: "Delete"
