@@ -10,6 +10,7 @@ en:
   hello: "Hello world"
   base_title: "Ruby on Rails Tutorial Sample App"
   sign_up: "Sign up"
+  log_in: "Login"
   language:
     english: "English"
     vietnamese: "Vietnamese"
@@ -17,6 +18,11 @@ en:
     home: "Home"
     help: "Help"
     login: "Log in"
+    users: "Users"
+    account: "Account"
+    log_out: "Log out"
+    profile: "Profile"
+    settings: "Settings"
   home:
     title: "Home"
     welcome: "Welcome to the Sample App"
@@ -32,4 +38,5 @@ en:
      create_my_account: "Create My Account"
      confirmation: "Confirmation"
   msg:
+    invalid_email_password_combination: "Invalid email and password combination"
     welcome_msg: "Welcome to the sample app!"

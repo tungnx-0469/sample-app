@@ -10,10 +10,16 @@ vi:
   hello: "Xin chào thế giới"
   base_title: "Ứng dụng Mẫu Ruby on Rails Tutorial"
   sign_up: "Đăng ký"
+  log_in: "Đăng nhập"
   header:
     home: "Trang chủ"
     help: "Trợ giúp"
     login: "Đăng nhập"
+    users: "Người dùng"
+    account: "Tài khoản"
+    log_out: "Đăng xuất"
+    profile: "Hồ sơ"
+    settings: "Cài đặt"
   language:
     english: "Tiếng Anh"
     vietnamese: "Tiếng Việt"
@@ -32,4 +38,5 @@ vi:
      create_my_account: "Tạo tài khoản"
      confirmation: "Xác nhận"
   msg:
+    invalid_email_password_combination: "Email hoặc mật khẩu không hợp lệ"
     welcome_msg: "Chào mừng tới sample app!"
