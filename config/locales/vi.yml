@@ -20,6 +20,11 @@ vi:
     log_out: "Đăng xuất"
     profile: "Hồ sơ"
     settings: "Cài đặt"
+  sessions:
+    new:
+      remember_me: "Lưu mật khẩu"
+      new_user?: "Người dùng mới?"
+      sign_up_now!: "Đăng ký ngay!"
   language:
     english: "Tiếng Anh"
     vietnamese: "Tiếng Việt"

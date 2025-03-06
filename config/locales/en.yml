@@ -23,6 +23,11 @@ en:
     log_out: "Log out"
     profile: "Profile"
     settings: "Settings"
+  sessions:
+    new:
+      remember_me: "Remember me on this computer"
+      new_user?: "New user?"
+      sign_up_now!: "Sign up now!"
   home:
     title: "Home"
     welcome: "Welcome to the Sample App"
