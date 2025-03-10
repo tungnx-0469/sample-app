@@ -29,6 +29,14 @@ en:
       remember_me: "Remember me on this computer"
       new_user?: "New user?"
       sign_up_now!: "Sign up now!"
+      forgot_password: "Forgot password?"
+  password_resets:
+    new:
+      forgot_password: "Forgot password"
+      submit: "Submit"
+    edit:
+      reset_password: "Reset password"
+      update_password: "Update password"
   home:
     title: "Home"
     welcome: "Welcome to the Sample App"
@@ -64,9 +72,22 @@ en:
     account_activated: "Account actiavted!"
     invalid_activation_link: "Invalid activation link!"
     check_email_request: "Please check your email to activate your account."
+    reset_password_email_sent: "Email sent with password reset instructions."
+    email_address_not_found: "Email address not found"
+    new_password_required: "You need to enter new password."
+    reset_password_success: "Password has been reset."
+    inactived_user: "User is in_actived!"
+    password_reset_expired: "Password reset has expired."
   mail:
     subject:
       account_activation: "Account activation"
+      password_reset: "Password reset"
     account_activation:
       instruction: "Click on the link below to activate your account:"
+    password_reset:
+      subject: "Password reset"
+      instruction: "To reset your password click the link below:"
+      reset_link: "Reset password"
+      expiration_notice: "This link will expire in two hours."
+      ignore_notice: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."
   delete: "Delete"
