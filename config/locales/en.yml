@@ -8,6 +8,7 @@ en:
         email: "Email"
         password: "Password"
   hello: "Hello world"
+  hi: "Hi"
   base_title: "Ruby on Rails Tutorial Sample App"
   sign_up: "Sign up"
   log_in: "Login"
@@ -59,4 +60,13 @@ en:
     user_deleted: "User deleted!"
     delete_fail: "User delete fail!"
     you_sure: "You sure?"
+    unactivated_account: "Account not activated. Check your email for the activation link."
+    account_activated: "Account actiavted!"
+    invalid_activation_link: "Invalid activation link!"
+    check_email_request: "Please check your email to activate your account."
+  mail:
+    subject:
+      account_activation: "Account activation"
+    account_activation:
+      instruction: "Click on the link below to activate your account:"
   delete: "Delete"
