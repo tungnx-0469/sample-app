@@ -8,6 +8,7 @@ vi:
         email: "Email"
         password: "Mật Khẩu"
   hello: "Xin chào thế giới"
+  hi: "Chào"
   base_title: "Ứng dụng Mẫu Ruby on Rails Tutorial"
   sign_up: "Đăng ký"
   log_in: "Đăng nhập"
@@ -59,4 +60,11 @@ vi:
     user_deleted: "Đã xóa người dùng!"
     delete_fail: "Xóa người dùng thất bại!"
     you_sure: "Bạn có chắc không?"
+    unactivated_account: "Tài khoản của bạn chưa được kích hoạt. Hãy kiểm tra email của bạn"
+    account_activated: "Đã kích hoạt tài khoản!"
+    invalid_activation_link: "Đường dẫn không hợp lệ"
+    check_email_request: "Hãy kiểm tra email để kích hoạt tài khoản"
+  mail:
+    subject:
+      account_activation: "Kích hoạt tài khoản"
   delete: "Xóa"
