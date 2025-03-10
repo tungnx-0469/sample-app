@@ -26,6 +26,14 @@ vi:
       remember_me: "Lưu mật khẩu"
       new_user?: "Người dùng mới?"
       sign_up_now!: "Đăng ký ngay!"
+      forgot_password: "Quên mật khẩu?"
+  password_resets:
+    new:
+      forgot_password: "Quên mật khẩu"
+      submit: "Gửi"
+    edit:
+      reset_password: "Reset mật khẩu"
+      update_password: "Cập nhật mật khẩu"
   language:
     english: "Tiếng Anh"
     vietnamese: "Tiếng Việt"
@@ -64,7 +72,22 @@ vi:
     account_activated: "Đã kích hoạt tài khoản!"
     invalid_activation_link: "Đường dẫn không hợp lệ"
     check_email_request: "Hãy kiểm tra email để kích hoạt tài khoản"
+    reset_password_email_sent: "Email đã được gửi kèm theo hướng dẫn đặt lại mật khẩu."
+    email_address_not_found: "Địa chỉ email không được tìm thấy."
+    new_password_required: "Bạn cần nhập mật khẩu mới."
+    reset_password_success: "Mật khẩu đã được đặt lại thành công."
+    inactived_user: "Người dùng đang bị vô hiệu hóa!"
+    password_reset_expired: "Yêu cầu đặt lại mật khẩu đã hết hạn."
   mail:
     subject:
       account_activation: "Kích hoạt tài khoản"
+      password_reset: "Reset mật khẩu"
+    account_activation:
+      instruction: "Truy cập link bên dưới để kích hoạt tài khoản:"
+    password_reset:
+      subject: "Đặt lại mật khẩu"
+      instruction: "Để đặt lại mật khẩu của bạn, hãy nhấp vào liên kết bên dưới:"
+      reset_link: "Đặt lại mật khẩu"
+      expiration_notice: "Liên kết này sẽ hết hạn sau hai giờ."
+      ignore_notice: "Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này và mật khẩu của bạn sẽ không thay đổi."
   delete: "Xóa"

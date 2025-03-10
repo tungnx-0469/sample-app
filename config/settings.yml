@@ -9,3 +9,4 @@ gravatar_url: "https://secure.gravatar.com/avatar"
 page_10: 10
 user_avatar_size: 50
 default_avatar_size: 80
+expire_email_hours: 2
