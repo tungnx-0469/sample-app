@@ -1,4 +1,6 @@
 class User < ApplicationRecord
+  has_many :microposts, dependent: :destroy
+  scope :newest, ->{order(created_at: :desc)}
   attr_accessor :remember_token, :activation_token, :reset_token
 
   before_save :downcase_email
@@ -53,6 +55,10 @@ class User < ApplicationRecord
 
   def send_password_reset_email
     UserMailer.password_reset(self).deliver_now
+  end
+
+  def feed
+    microposts.recent_posts
   end
 
   def activate

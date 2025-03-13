@@ -1,7 +1,7 @@
 class PasswordResetsController < ApplicationController
   include ApplicationHelper
 
-  PERMITTED_ATTRIBUTES = %i(password password_confirmation)
+  PERMITTED_ATTRIBUTES = %i(password password_confirmation).freeze
 
   before_action :load_user, :valid_user,
                 :check_expiration, only: %i(edit update)
