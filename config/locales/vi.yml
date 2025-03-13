@@ -44,6 +44,7 @@ vi:
     description_text_1: "Đây là trang chủ của"
     description_text_2: "Hướng dẫn Ruby on Rails"
     description_text_3: "ứng dụng mẫu."
+    micropost_feed: "Bảng tin"
   help:
     title: "Trợ giúp"
     find_me_in: "Tìm tôi tại"
@@ -58,6 +59,8 @@ vi:
       change: "Thay đổi"
     index:
       all_users: "Danh sách người dùng"
+    show:
+      microposts: "Bài đăng"
   msg:
     invalid_email_password_combination: "Email hoặc mật khẩu không hợp lệ"
     welcome_msg: "Chào mừng tới sample app!"
@@ -78,6 +81,11 @@ vi:
     reset_password_success: "Mật khẩu đã được đặt lại thành công."
     inactived_user: "Người dùng đang bị vô hiệu hóa!"
     password_reset_expired: "Yêu cầu đặt lại mật khẩu đã hết hạn."
+    micropost_created: "Tạo bài đăng thành công!"
+    micropost_deleted: "Xóa bài đăng thành công!"
+    micropost_invalid: "Bài viết không hợp lệ!"
+    invalid_image_format: "Định dạng không được hỗ trợ"
+    invalid_file_size: "Kích thước file phải nhỏ hơn 5MB"
   mail:
     subject:
       account_activation: "Kích hoạt tài khoản"
@@ -91,3 +99,24 @@ vi:
       expiration_notice: "Liên kết này sẽ hết hạn sau hai giờ."
       ignore_notice: "Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này và mật khẩu của bạn sẽ không thay đổi."
   delete: "Xóa"
+  datetime:
+    distance_in_words:
+      about_x_hours: "khoảng %{count} giờ"
+      about_x_months: "khoảng %{count} tháng"
+      about_x_years: "khoảng %{count} năm"
+      almost_x_years: "gần %{count} năm"
+      half_a_minute: "nửa phút"
+      less_than_x_minutes: "dưới %{count} phút"
+      less_than_x_seconds: "dưới %{count} giây"
+      over_x_years: "hơn %{count} năm"
+      x_days: "%{count} ngày"
+      x_minutes: "%{count} phút"
+      x_months: "%{count} tháng"
+      x_seconds: "%{count} giây"
+      x_years: "%{count} năm"
+  micropost:
+    posted: "Đăng"
+    ago: "Trước"
+    micropost_input_placeholder: "Nhập nội dung bài đăng...."
+  view_my_profile: "Xem hồ sơ"
+  post: "Đăng"

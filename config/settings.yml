@@ -10,3 +10,8 @@ page_10: 10
 user_avatar_size: 50
 default_avatar_size: 80
 expire_email_hours: 2
+digit_140: 140
+allowed_image_file_type: ["image/jpeg", "image/gif", "image/png"]
+accept_img_type: "image/jpeg,image/gif,image/png"
+max_file_size: 5
+image_size: [500, 500]

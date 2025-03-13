@@ -44,6 +44,7 @@ en:
     description_text_1: "This is the home page for the"
     description_text_2: "Ruby on Rails Tutorial"
     description_text_3: "sample application."
+    micropost_feed: "Micropost feed"
   help:
     title: "Help"
     find_me_in: "Find me in"
@@ -58,6 +59,8 @@ en:
       change: "Change"
     index:
       all_users: "All users"
+    show:
+      microposts: "Microposts"
   msg:
     invalid_email_password_combination: "Invalid email and password combination"
     welcome_msg: "Welcome to the sample app!"
@@ -66,7 +69,7 @@ en:
     cannot_edit_this_account: "You can't edit this account."
     profile_updated: "Profile updated!"
     user_deleted: "User deleted!"
-    delete_fail: "User delete fail!"
+    delete_fail: "Delete fail!"
     you_sure: "You sure?"
     unactivated_account: "Account not activated. Check your email for the activation link."
     account_activated: "Account actiavted!"
@@ -78,6 +81,11 @@ en:
     reset_password_success: "Password has been reset."
     inactived_user: "User is in_actived!"
     password_reset_expired: "Password reset has expired."
+    micropost_created: "Micropost created!"
+    micropost_deleted: "Micropost deleted!"
+    micropost_invalid: "Micropost invalid!"
+    invalid_image_format: "Not supported this format"
+    invalid_file_size: "File size must be less than 5MB"
   mail:
     subject:
       account_activation: "Account activation"
@@ -91,3 +99,9 @@ en:
       expiration_notice: "This link will expire in two hours."
       ignore_notice: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."
   delete: "Delete"
+  micropost:
+    posted: "Posted"
+    ago: "ago"
+    micropost_input_placeholder: "Enter imcropost content...."
+  view_my_profile: "View my profile"
+  post: "Post"

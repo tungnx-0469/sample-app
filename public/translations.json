@@ -1,0 +1,12 @@
+{
+  "en": {
+    "errors": {
+      "file_size_exceeded": "Maximum file size is 5MB. Please choose a smaller file."
+    }
+  },
+  "vi": {
+    "errors": {
+      "file_size_exceeded": "Dung lượng tệp tối đa là 5MB. Vui lòng chọn tệp nhỏ hơn."
+    }
+  }
+}
