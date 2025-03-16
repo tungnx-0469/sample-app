@@ -1,6 +1,6 @@
 class MicropostsController < ApplicationController
   include ApplicationHelper
-  
+
   PERMITTED_ATTRIBUTES = %i(content image).freeze
 
   before_action :logged_in_user, only: %i(create destroy)

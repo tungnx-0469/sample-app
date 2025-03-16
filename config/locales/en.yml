@@ -86,6 +86,7 @@ en:
     micropost_invalid: "Micropost invalid!"
     invalid_image_format: "Not supported this format"
     invalid_file_size: "File size must be less than 5MB"
+    not_follow_yet: "You haven't followed this user yet"
   mail:
     subject:
       account_activation: "Account activation"
@@ -105,3 +106,7 @@ en:
     micropost_input_placeholder: "Enter imcropost content...."
   view_my_profile: "View my profile"
   post: "Post"
+  following: "Following"
+  unfollow: "Unfollow"
+  follow: "Follow"
+  followers: "Followers"

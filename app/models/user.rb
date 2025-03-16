@@ -1,6 +1,14 @@
 class User < ApplicationRecord
   has_many :microposts, dependent: :destroy
+  has_many :active_relationships, class_name: Relationship.name,
+            foreign_key: :follower_id, dependent: :destroy
+  has_many :passive_relationships, class_name: Relationship.name,
+            foreign_key: :followed_id, dependent: :destroy
+  has_many :following, through: :active_relationships, source: :followed
+  has_many :followers, through: :passive_relationships, source: :follower
+
   scope :newest, ->{order(created_at: :desc)}
+
   attr_accessor :remember_token, :activation_token, :reset_token
 
   before_save :downcase_email
@@ -58,7 +66,9 @@ class User < ApplicationRecord
   end
 
   def feed
-    microposts.recent_posts
+    Micropost.relate_post(following_ids << id)
+             .recent_posts
+             .includes(:user, image_attachment: :blob)
   end
 
   def activate
@@ -73,6 +83,18 @@ class User < ApplicationRecord
 
   def password_reset_expired?
     reset_sent_at < Settings.expire_email_hours.hours.ago
+  end
+
+  def follow other_user
+    following << other_user
+  end
+
+  def unfollow other_user
+    following.delete other_user
+  end
+
+  def following? other_user
+    following.include? other_user
   end
 
   private
