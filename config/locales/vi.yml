@@ -86,6 +86,7 @@ vi:
     micropost_invalid: "Bài viết không hợp lệ!"
     invalid_image_format: "Định dạng không được hỗ trợ"
     invalid_file_size: "Kích thước file phải nhỏ hơn 5MB"
+    not_follow_yet: "You haven't followed this user yet"
   mail:
     subject:
       account_activation: "Kích hoạt tài khoản"
@@ -120,3 +121,7 @@ vi:
     micropost_input_placeholder: "Nhập nội dung bài đăng...."
   view_my_profile: "Xem hồ sơ"
   post: "Đăng"
+  following: "Đang theo dõi"
+  unfollow: "Hủy theo dõi"
+  follow: "Theo dõi"
+  followers: "Theo dõi bạn"
